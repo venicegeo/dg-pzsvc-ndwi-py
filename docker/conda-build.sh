@@ -18,6 +18,7 @@ echo "***Building beachfront...***"
 conda build beachfront
 echo "***Building bfalg-ndwi...***"
 conda build bfalg-ndwi
+echo "***Building pzsvc-exec...***"
+conda build pzsvc-exec
 popd > /dev/null
 cp -r $HOME/miniconda2/conda-bld /$HOME/conda-repo
-
